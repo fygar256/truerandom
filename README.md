@@ -6,19 +6,19 @@ slide: false
 ---
 This is a python module that extracts true random numbers.
 
-There are two types of random numbers that can be used by computers: pseudo-random numbers with a period, and true random numbers obtained from TRNG. There is also something called "perfectly random numbers", which can only be handled probabilistically. In other words, completely random numbers only exist in the world of ideas.
+There are two types of random numbers that can be used by computers: pseudo-random numbers with a period, and true random numbers obtained from TRNG. There is also something called "perfect random numbers", which can only be handled probabilistically. In other words, perfect random numbers only exist in the world of ideas.
 
 In python3, random numbers are mainly used with the random module, which generates pseudo-random numbers and is not truly random. However, Linux provides /dev/random, which can be read to obtain true random numbers from environmental noise, so this is what we use.
 
-"True random numbers" have a different definition from "perfectly random numbers".
+"True random numbers" have a different definition from "perfect random numbers".
 
 ・ True random numbers are fundamentally unpredictable and truly random random numbers. This is the opposite of pseudo-random numbers that are generated arithmetically by a computer. Physical random numbers that utilize quantum behavior, such as the decay of radioactive elements, are known. True random numbers. - Shogakukan - From the Digital Daijisen Dictionary.
 
-・Perfectly random numbers refer to a sequence of numbers that are generated in a completely random order, and are also called ideal random numbers. They can only be handled probabilistically. - Search Labs | By AI.
+・Perfect random numbers refer to a sequence of numbers that are generated in a complete random order, and are also called ideal random numbers. They can only be handled probabilistically. - Search Labs | By AI.
 
 Although the definitions are different, true random numbers can be considered to be perfect random numbers and treated in the same way.
 
-To create perfectly random numbers may be difficult or impossible because of Jungian synchronicity (a strange coincidence that goes beyond the law of causality). There are two answers to whether true random numbers are perfect or not: yes/no.
+To create perfect random numbers may be difficult or impossible because of Jungian synchronicity (a strange coincidence that goes beyond the law of causality) and since the EPR paradox has become the EPR correlation. There are two answers to whether true random numbers are perfect or not: yes/no.
 
 A method to generate "mathematically perfect random numbers (true random numbers)" has not yet been found, as it is said to be impossible in principle using mathematics alone (because mathematical algorithms are deterministic). However, one day a genius may appear and make it possible to include infinity.
 
