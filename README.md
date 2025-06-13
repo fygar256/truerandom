@@ -28,7 +28,7 @@ A method to generate "mathematically perfect random numbers (true random numbers
 
 rand(n) returns a true random number in the range of n*8-bit positive integers.
 
-rand_f(n) returns a float-type random number in the range [0,1] in practical terms, but the distribution of random numbers is not continuous like real numbers, and it is not a true random number because it performs one division between integers.
+rand_f(n) practically returns a random float number in the range [0,1), but since the distribution is not continuous like real numbers, it is not a truly random number.
 
 randomint(k,n) returns a random integer number in the range 0 to n-1 in practical terms, but it is not a true random number because it performs a remainder calculation.
 
