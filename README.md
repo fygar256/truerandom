@@ -10,7 +10,7 @@ There are two types of random numbers that can be used by computers: pseudorando
 
 In python3, random numbers are mainly used with the random module, which generates pseudorandom numbers and is not truly random. However, Linux provides /dev/random, which can be read to obtain true random numbers from environmental noise, so this is what we use.
 
-"True random numbers" have a different definition from "completely random numbers".
+"True random numbers" have a different definition from "complete random numbers".
 
 ・ True random numbers are fundamentally unpredictable and truly disorderly random numbers. This is the opposite of pseudorandom numbers that are generated mathematically by a computer. Physical random numbers that use quantum behavior, such as the decay of radioactive elements, are known. True random numbers. - Shogakukan - From the Digital Daijisen.
 
