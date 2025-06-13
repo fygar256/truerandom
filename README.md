@@ -6,21 +6,21 @@ slide: false
 ---
 This is a python module that extracts true random numbers.
 
-There are two types of random numbers that can be used by computers: pseudorandom numbers with a period, and true random numbers that are statistically correct. There are also "completely random numbers" that cannot be handled by computers, and they can only be handled probabilistically. In other words, completely random numbers only exist in the world of ideas.
+There are two types of random numbers that can be used by computers: pseudo-random numbers with a period, and true random numbers obtained from TRNG. There is also something called "perfectly random numbers", which can only be handled probabilistically. In other words, completely random numbers only exist in the world of ideas.
 
-In python3, random numbers are mainly used with the random module, which generates pseudorandom numbers and is not truly random. However, Linux provides /dev/random, which can be read to obtain true random numbers from environmental noise, so this is what we use.
+In python3, random numbers are mainly used with the random module, which generates pseudo-random numbers and is not truly random. However, Linux provides /dev/random, which can be read to obtain true random numbers from environmental noise, so this is what we use.
 
-"True random numbers" have a different definition from "completely random numbers".
+"True random numbers" have a different definition from "perfectly random numbers".
 
-・ True random numbers are fundamentally unpredictable and truly disorderly random numbers. This is the opposite of pseudorandom numbers that are generated mathematically by a computer. Physical random numbers that utilize quantum behavior, such as the decay of radioactive elements, are known. True random numbers. - Shogakukan - From the Digital Daijisen.
+・ True random numbers are fundamentally unpredictable and truly random random numbers. This is the opposite of pseudo-random numbers that are generated arithmetically by a computer. Physical random numbers that utilize quantum behavior, such as the decay of radioactive elements, are known. True random numbers. - Shogakukan - From the Digital Daijisen Dictionary.
 
 ・Perfectly random numbers refer to a sequence of numbers that are generated in a completely random order, and are also called ideal random numbers. They can only be handled probabilistically. - Search Labs | By AI.
 
-Although the definitions are different, for practical purposes, true random numbers can be considered to be perfect random numbers and treated in the same way.
+Although the definitions are different, true random numbers can be considered to be perfect random numbers and treated in the same way.
 
-Perfectly random numbers have Jungian synchronicity (a strange coincidence that goes beyond the law of causality), so it may be difficult or impossible to create them in the real world. There are two answers to whether true random numbers are perfect random numbers or not: yes/no.
+Perfectly random numbers have Jungian synchronicity (a strange coincidence that goes beyond the law of causality), so it may be difficult or impossible to create them in the real world. There are two answers to whether true random numbers are perfect or not: yes/no.
 
-A method to generate "mathematically perfect random numbers (true random numbers)" has not yet been found, as it is considered in principle impossible using mathematics alone (because mathematical algorithms are deterministic). However, one day a genius may appear and encompass infinity and make it a reality.
+A method to generate "mathematically perfect random numbers (true random numbers)" has not yet been found, as it is said to be impossible in principle using mathematics alone (because mathematical algorithms are deterministic). However, one day a genius may appear and make it possible to include infinity.
 
 /dev/random returns one byte per read.
 
@@ -28,9 +28,9 @@ A method to generate "mathematically perfect random numbers (true random numbers
 
 rand(n) returns a true random number in the range of n*8-bit positive integers.
 
-rand_f(n) practically returns a float-type random number in the range [0,1), but the distribution of random numbers is not continuous like real numbers, and it is not a true random number because it performs one integer division.
+rand_f(n) returns a float-type random number in the range [0,1] in practical terms, but the distribution of random numbers is not continuous like real numbers, and it is not a true random number because it performs one division between integers.
 
-randomint(k,n) practically returns an integer random number between 0 and n-1, but it is not a true random number because it performs a remainder calculation.
+randomint(k,n) returns a random integer number in the range 0 to n-1 in practical terms, but it is not a true random number because it performs a remainder calculation.
 
 ```truerand.py
 #!/usr/bin/python3
