@@ -14,7 +14,7 @@ In python3, random numbers are mainly used with the random module, which generat
 
 ・ True random numbers are fundamentally unpredictable and truly disorderly random numbers. This is the opposite of pseudorandom numbers that are generated mathematically by a computer. Physical random numbers that use quantum behavior, such as the decay of radioactive elements, are known. True random numbers. - Shogakukan - From the Digital Daijisen.
 
-・Perfect random numbers refer to a sequence of numbers that occur in a completely random order, and are also called ideal random numbers. They can only be handled probabilistically. - Search Labs | By AI.
+・Perfect random numbers refer to a sequence of numbers that occur in a perfectly random order, and are also called ideal random numbers. They can only be handled probabilistically. - Search Labs | By AI.
 
 Although the definitions are different, in practice, true random numbers can be considered to be perfect random numbers and treated the same way.
 
