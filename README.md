@@ -6,19 +6,19 @@ slide: false
 ---
 This is a python module that extracts true random numbers.
 
-There are two types of random numbers that can be used by computers: pseudorandom numbers with a period, and true random numbers that are statistically correct. There are also "complete random numbers" that cannot be handled by computers, and they can only be handled probabilistically. In other words, complete random numbers only exist in the world of ideas.
+There are two types of random numbers that can be used by computers: pseudorandom numbers with a period, and true random numbers that are statistically correct. There are also "perfect random numbers" that cannot be handled by computers, and they can only be handled probabilistically. In other words, perfect random numbers only exist in the world of ideas.
 
 In python3, random numbers are mainly used with the random module, which generates pseudorandom numbers and is not truly random. However, Linux provides /dev/random, which can be read to obtain true random numbers from environmental noise, so this is what we use.
 
-"True random numbers" have a different definition from "complete random numbers".
+"True random numbers" have a different definition from "perfect random numbers".
 
 ・ True random numbers are fundamentally unpredictable and truly disorderly random numbers. This is the opposite of pseudorandom numbers that are generated mathematically by a computer. Physical random numbers that use quantum behavior, such as the decay of radioactive elements, are known. True random numbers. - Shogakukan - From the Digital Daijisen.
 
-・Complete random numbers refer to a sequence of numbers that occur in a completely random order, and are also called ideal random numbers. They can only be handled probabilistically. - Search Labs | By AI.
+・Perfect random numbers refer to a sequence of numbers that occur in a completely random order, and are also called ideal random numbers. They can only be handled probabilistically. - Search Labs | By AI.
 
 Although the definitions are different, in practice, true random numbers can be considered to be perfect random numbers and treated the same way.
 
-Creating complete random numbers is difficult or impossible because of Jungian synchronicity (a strange coincidence that goes beyond the law of causality) in the real world.
+Generating perfect random numbers is difficult or impossible in the real world because of Jungian synchronicity (a strange coincidence that goes beyond the law of causality).
 
 /dev/random returns one byte per read.
 
