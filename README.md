@@ -18,7 +18,7 @@ In python3, random numbers are mainly used with the random module, which generat
 
 Although the definitions are different, true random numbers can be considered to be perfect random numbers and treated in the same way.
 
-Perfectly random numbers have Jungian synchronicity (a strange coincidence that goes beyond the law of causality), so it may be difficult or impossible to create them in the real world. There are two answers to whether true random numbers are perfect or not: yes/no.
+To create perfectly random numbers may be difficult or impossible because of Jungian synchronicity (a strange coincidence that goes beyond the law of causality). There are two answers to whether true random numbers are perfect or not: yes/no.
 
 A method to generate "mathematically perfect random numbers (true random numbers)" has not yet been found, as it is said to be impossible in principle using mathematics alone (because mathematical algorithms are deterministic). However, one day a genius may appear and make it possible to include infinity.
 
