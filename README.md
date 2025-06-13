@@ -6,7 +6,7 @@ slide: false
 ---
 This is a python module that extracts true random numbers.
 
-There are two types of random numbers that can be used by computers: pseudorandom numbers with a period, and true random numbers that are statistically correct. There are also "complete random numbers" that cannot be handled by computers, and they can only be handled probabilistically. In other words, completely random numbers only exist in the world of ideas.
+There are two types of random numbers that can be used by computers: pseudorandom numbers with a period, and true random numbers that are statistically correct. There are also "complete random numbers" that cannot be handled by computers, and they can only be handled probabilistically. In other words, complete random numbers only exist in the world of ideas.
 
 In python3, random numbers are mainly used with the random module, which generates pseudorandom numbers and is not truly random. However, Linux provides /dev/random, which can be read to obtain true random numbers from environmental noise, so this is what we use.
 
